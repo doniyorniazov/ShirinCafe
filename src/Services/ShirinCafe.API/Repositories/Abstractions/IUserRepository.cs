@@ -2,7 +2,7 @@ using ShirinCafe.API.Models;
 
 namespace ShirinCafe.API.Repositories.Abstractions;
 
-public interface IUser
+public interface IUserRepository
 {
     Task SaveChangesAsync();
     

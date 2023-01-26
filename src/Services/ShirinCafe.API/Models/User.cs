@@ -3,11 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ShirinCafe.API.Models
 {
-	public class User
+	public class User : BaseModel
 	{
-        [Key]
-        public Guid Id { get; set; }
-        [Required]
+		[Required]
         public string? Name { get; set; }
         [Required]
         public string? Username { get; set; }
