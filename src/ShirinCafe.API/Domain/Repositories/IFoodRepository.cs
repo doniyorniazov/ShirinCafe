@@ -1,4 +1,4 @@
-using ShirinCafe.API.Models;
+using ShirinCafe.Domain.Repositories;
 
 namespace ShirinCafe.API.Repositories.Abstractions;
 
