@@ -1,6 +1,5 @@
-using ShirinCafe.API.Models;
-
-namespace ShirinCafe.API.Domain.Repositories;
+using Domain.Models;
+namespace Domain.Repositories;
 
 public interface IUserRepository
 {

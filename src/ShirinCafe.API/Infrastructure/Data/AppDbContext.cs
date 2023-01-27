@@ -1,7 +1,7 @@
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using ShirinCafe.API.Models;
 
-namespace ShirinCafe.API.Data
+namespace Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {

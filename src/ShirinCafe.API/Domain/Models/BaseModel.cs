@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ShirinCafe.API.Domain.Models;
+namespace Domain.Models;
 
 public class BaseModel
 {

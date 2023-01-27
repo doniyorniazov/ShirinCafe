@@ -1,4 +1,4 @@
-using ShirinCafe.API.Application.Dtos;
+using Domain.Enums;
 
 namespace ShirinCafe.API.Dtos;
 
@@ -13,6 +13,6 @@ public class FoodDto
     public decimal Price { get; set; }
 
     public byte Image { get; set; }
-
+    
     public FoodType Type { get; set; }
 }

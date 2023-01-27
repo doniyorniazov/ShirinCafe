@@ -1,8 +1,7 @@
-using ShirinCafe.API.Models;
-using ShirinCafe.API.Repositories.Abstractions;
+using Domain.Models;
+using Domain.Repositories;
 
-namespace ShirinCafe.API.Infrastructure.Repositories;
-
+namespace Infrastructure.Repositories;
 
 public class FoodRepository : IFoodRepository
 {

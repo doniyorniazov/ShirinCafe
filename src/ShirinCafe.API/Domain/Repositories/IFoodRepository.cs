@@ -1,6 +1,6 @@
-using ShirinCafe.Domain.Repositories;
+using Domain.Models;
 
-namespace ShirinCafe.API.Domain.Repositories;
+namespace Domain.Repositories;
 
 public interface IFoodRepository
 {
