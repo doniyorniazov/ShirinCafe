@@ -1,4 +1,4 @@
-using ShirinCafe.API.Models;
+using ShirinCafe.API.Application.Dtos;
 
 namespace ShirinCafe.API.Dtos;
 

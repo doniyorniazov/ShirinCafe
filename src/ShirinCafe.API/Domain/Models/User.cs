@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ShirinCafe.API.Models
+namespace ShirinCafe.API.Domain.Models;
 {
 	public class User : BaseModel
 	{

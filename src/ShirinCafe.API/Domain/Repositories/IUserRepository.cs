@@ -1,6 +1,6 @@
 using ShirinCafe.API.Models;
 
-namespace ShirinCafe.API.Repositories.Abstractions;
+namespace ShirinCafe.API.Domain.Repositories;
 
 public interface IUserRepository
 {
