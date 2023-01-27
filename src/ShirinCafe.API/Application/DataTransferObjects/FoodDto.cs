@@ -1,6 +1,6 @@
 using Domain.Enums;
 
-namespace ShirinCafe.API.Dtos;
+namespace Application.DataTransferObjects;
 
 public class FoodDto
 {
