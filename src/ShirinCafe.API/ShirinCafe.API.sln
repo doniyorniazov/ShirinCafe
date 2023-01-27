@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1704.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirinCafe.API", "ShirinCafe.API.csproj", "{E3A3FC15-5F48-44AE-B6DE-C98562A88669}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirinCafe.API", "ShirinCafe.API\ShirinCafe.API.csproj", "{E3A3FC15-5F48-44AE-B6DE-C98562A88669}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{79F92176-785A-48CF-8165-D85D86771F0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application\Application.csproj", "{78144FB3-93C0-47C5-A5BE-AD9641829C24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{78144FB3-93C0-47C5-A5BE-AD9641829C24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{59F75A86-F62F-4344-8557-AD404159FD07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain\Domain.csproj", "{5F681676-387D-46F8-95A9-FB793DD0B77A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5F681676-387D-46F8-95A9-FB793DD0B77A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6E9AF0AC-8146-407B-A05F-9A0BE6224D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure\Infrastructure.csproj", "{44334A34-0F6F-45C7-9F5A-BFA7A7D279AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{44334A34-0F6F-45C7-9F5A-BFA7A7D279AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShirinCafe.API", "ShirinCafe.API", "{FBAC2C16-304D-478A-8624-C61EC5E54060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,5 +52,6 @@ Global
 		{78144FB3-93C0-47C5-A5BE-AD9641829C24} = {79F92176-785A-48CF-8165-D85D86771F0A}
 		{5F681676-387D-46F8-95A9-FB793DD0B77A} = {59F75A86-F62F-4344-8557-AD404159FD07}
 		{44334A34-0F6F-45C7-9F5A-BFA7A7D279AB} = {6E9AF0AC-8146-407B-A05F-9A0BE6224D9A}
+		{E3A3FC15-5F48-44AE-B6DE-C98562A88669} = {FBAC2C16-304D-478A-8624-C61EC5E54060}
 	EndGlobalSection
 EndGlobal
