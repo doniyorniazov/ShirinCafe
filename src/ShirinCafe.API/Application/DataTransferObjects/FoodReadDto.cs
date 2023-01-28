@@ -2,7 +2,7 @@ using Domain.Enums;
 
 namespace Application.DataTransferObjects;
 
-public class FoodDto
+public class FoodReadDto
 {
     public int Id { get; set; }
     
