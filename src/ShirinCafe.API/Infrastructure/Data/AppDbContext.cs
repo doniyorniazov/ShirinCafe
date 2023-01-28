@@ -11,6 +11,5 @@ namespace Infrastructure.Data
 
         public DbSet<User> Users => Set<User>();
         public DbSet<Food> Foods => Set<Food>();
-        
     }
 }

@@ -11,7 +11,7 @@ public class UserRepository : IUserRepository
 
     public UserRepository(AppDbContext context)
     {
-        _context = _context;
+        _context = context;
     }
     
     public async Task SaveChangesAsync()
