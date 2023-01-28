@@ -1,32 +1,47 @@
 using Domain.Models;
 using Domain.Repositories;
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
 public class UserRepository : IUserRepository
 {
-    public Task SaveChangesAsync()
+    private readonly AppDbContext _context;
+
+    public UserRepository(AppDbContext context)
     {
-        throw new NotImplementedException();
+        _context = _context;
+    }
+    
+    public async Task SaveChangesAsync()
+    {
+        await _context.SaveChangesAsync();
     }
 
-    public Task<User> GetUserByIdAsync(int id)
+    public async Task<User> GetUserByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        return await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
     }
 
-    public Task<IEnumerable<User>> GetAllUserAsync()
+    public async Task<IEnumerable<User>> GetAllUserAsync()
     {
-        throw new NotImplementedException();
+        return await _context.Users.ToListAsync();
     }
 
-    public Task CreateUserAsync(User user)
+    public async Task CreateUserAsync(User user)
     {
-        throw new NotImplementedException();
+        if (user is null)
+            throw new ArgumentNullException(nameof(user));
+
+        await _context.AddAsync(user);
     }
 
     public void DeleteUser(User user)
     {
-        throw new NotImplementedException();
+        if (user is  null)
+            throw new ArgumentNullException(nameof(user));
+        
+        _context.Users.Remove(user);
     }
 }
