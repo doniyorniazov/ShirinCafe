@@ -27,8 +27,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
 app.UseHttpsRedirection();
 app.MapGet("/", () => "Welcome to Shirin Cafe API");
 app.Run("http://localhost:2222");
