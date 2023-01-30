@@ -1,10 +1,8 @@
 using Domain.Models;
 namespace Domain.Repositories;
 
-public interface IUserRepository
+public interface IUserRepository : IBaseRepository
 {
-    Task SaveChangesAsync();
-    
     Task<User> GetUserByIdAsync(int id);
     
     Task<IEnumerable<User>> GetAllUserAsync();

@@ -2,10 +2,8 @@ using Domain.Models;
 
 namespace Domain.Repositories;
 
-public interface IFoodRepository
+public interface IFoodRepository : IBaseRepository
 {
-    Task SaveChangesAsync();
-
     Task<Food> GetFoodByIdAsync(int id);
 
     Task<IEnumerable<Food>> GetAllFoodsAsync();
